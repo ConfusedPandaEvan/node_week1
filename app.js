@@ -149,6 +149,6 @@ app.use(requestMiddleware);
 app.use("/api", bodyParser.json(), router);
 app.use(express.urlencoded());
 
-app.listen(4000, () => {
+app.listen(80, () => {
   console.log("Server is On Babeee!");
 });
